@@ -25,3 +25,6 @@ Please refer to each file. Some files may not have any setup information. Those 
 All TODO comments can be ignore.
 
 A full update of the project will be provided in the future.
+
+# Code Structure
+The code structured used for the entirety of the project was based on Polymorphism and Mutex. The use of polymorphism is to allow each object to inherit properties from others and/or access such properties. Mutex was heavily used to allow access to the object's properties inside of the classes. This gives flexibility for objects to access or change such property when needed. It also provides security in which outside users cannot change the property within. 
